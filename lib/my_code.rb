@@ -38,3 +38,18 @@ def reduce_to_total(source_array, starting_point=0)
   sum
 end
 
+def reduce_to_total(source_array, starting_point=0)
+  i =0
+  sum = starting_point
+  while i<source_array.length do
+    n= source_array[i]
+    sum +=n
+    i+=1
+  end
+  sum
+end
+
+
+
+
+
