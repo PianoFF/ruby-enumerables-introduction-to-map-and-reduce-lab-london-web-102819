@@ -8,4 +8,4 @@ def map (array)
   end
   new_ary
 end
-puts map([1,2,3,9])
+# puts map([1,2,3,9])
