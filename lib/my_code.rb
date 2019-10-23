@@ -5,7 +5,7 @@ def map (array)
   while i < array.length do
     new_ary<< (array[i]*-1)
     i+=1
-    p new_ary
+    # p new_ary
   end
   new_ary
 end
