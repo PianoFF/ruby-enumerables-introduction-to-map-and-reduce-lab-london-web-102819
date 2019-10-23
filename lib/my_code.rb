@@ -8,5 +8,5 @@ def map (array)
   end
   new_ary
 end
-
+new_ary
 puts map([1,2,3,9])
