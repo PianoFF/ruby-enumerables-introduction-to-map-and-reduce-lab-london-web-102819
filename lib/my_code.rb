@@ -64,5 +64,13 @@ def reduce_to_all_true(source_array)
 end
 
 def reduce_to_any_true (source_array)
-  source_array.each{|element| }
+  source_array.each do
+    if false
+      it_is = false
+      break
+    else 
+      it_is =true
+    end
+  end
+end
 
