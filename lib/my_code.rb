@@ -72,5 +72,6 @@ def reduce_to_any_true (source_array)
       it_is =false
     end
   end
+  it_is
 end
 
