@@ -7,4 +7,5 @@ def map (array)
     i+=1
     p new_ary
   end
+  new_ary
 end
