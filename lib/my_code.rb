@@ -20,8 +20,10 @@ def map_to_no_change(source_array)
 end
 
 def map_to_double(source_array)
+  
+  item = array.each{|i| i*2}
+  puts item 
   new_ary = Array.new
-  new_ary<<array.each{|i| i*2}
   new_ary
 end
 
