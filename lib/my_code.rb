@@ -18,3 +18,11 @@ def map_to_no_change(source_array)
   end
   new_ary
 end
+
+def map_to_double(source_array)
+  new_ary = Array.new
+  new_ary<<array.each{|i| i*2}
+  new_ary
+end
+
+
