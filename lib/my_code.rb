@@ -65,11 +65,11 @@ end
 
 def reduce_to_any_true (source_array)
   source_array.each do
-    if false
-      it_is = false
+    if true
+      it_is = true
       break
     else 
-      it_is =true
+      it_is =false
     end
   end
 end
