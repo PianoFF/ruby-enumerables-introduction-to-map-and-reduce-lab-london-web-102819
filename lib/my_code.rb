@@ -21,10 +21,6 @@ end
 
 def map_to_double(source_array)
   
-  item = array.each{|i| i*2}
-  puts item 
-  new_ary = Array.new
-  new_ary
 end
 
 
