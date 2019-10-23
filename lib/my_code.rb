@@ -9,3 +9,5 @@ def map (array)
   end
   new_ary
 end
+
+map([1,2,3,9])
