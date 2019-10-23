@@ -10,4 +10,4 @@ def map (array)
   new_ary
 end
 
-map([1,2,3,9])
+puts map([1,2,3,9])
